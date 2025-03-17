@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  margin: 10px;
+  margin: 0;
   padding: 0;
 }
 
@@ -109,7 +109,7 @@ header{
 }
 
 .contenido-left{
-  margin: 0;
+  margin: 10px;
   width: 65%;
   height: auto;
   background: url("/todos.jpeg");
@@ -119,7 +119,7 @@ header{
 }
 
 .contenido-rigth{
-  margin: 0;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   gap: 20px;
