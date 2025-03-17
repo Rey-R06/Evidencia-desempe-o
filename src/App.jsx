@@ -20,7 +20,7 @@ function App() {
 
       {mostrarContenido && 
       <>
-        <audio src="/audio/music.mp3" autoPlay loop></audio>
+        <audio src="/audio/music.mp3" autoPlay></audio>
         <div className="entrada">
           <Header />
           <Contenido />
