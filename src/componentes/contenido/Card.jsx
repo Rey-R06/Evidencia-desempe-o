@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Card({className}) {
+export default function Card({className, backgroundImage}) {
   return (
-    <section className={className}>
-        <h2>holi</h2>
+    <section
+      className={className}
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    >
     </section>
   )
 }
